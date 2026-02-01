@@ -1,20 +1,19 @@
 # Clock Skew and Jitter Analysis Tool
 
-A Python-based simulation tool to analyze clock skew and clock jitter in
+Python-based simulation tool to analyze clock skew and clock jitter in
 synchronous digital and VLSI systems.
 
+The tool calculates clock skew using flip-flop arrival times, simulates
+clock jitter using random clock edge variations, and visualizes results
+using graphical plots.
+
 ## Features
-- Ideal clock generation
-- Clock skew modeling using path delays
-- Clock jitter modeling using random timing variations
-- Numerical and graphical analysis
-- Visualization using Matplotlib
+- Clock skew calculation
+- Clock jitter simulation
+- Statistical analysis
+- Graphical visualization using Matplotlib
+- Timing status evaluation (Safe / Risky)
 
 ## Tech Stack
 - Python
-- NumPy
 - Matplotlib
-
-## Use Case
-Educational and analytical tool for understanding clock timing issues
-in VLSI and high-speed digital systems.
